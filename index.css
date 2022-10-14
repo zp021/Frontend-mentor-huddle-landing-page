@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-violet: hsl(257, 40%, 49%);
+    --clr-magenta: hsl(300, 69%, 71%);
+}
+
+body {
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 46.875rem;
+    background-color: var(--clr-violet);
+    color: white;
+    height: calc(100vh - 1px);
+    margin: 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container #logo {
+    width: 15.625rem;
+    float: left;
+    margin-bottom: 7rem;
+}
+
+.container #mockup {
+    width: 37.5rem;
+    height: 26.75rem;
+    margin-bottom: 7rem;
+}
+
+.container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container p {
+    font-family: "Open sans", sans-serif;
+    font-size: 1.95rem;
+    line-height: 1.6;
+    word-spacing: 3px;
+    margin-bottom: 3rem;
+}
+
+.btn-register {
+    background-color: white;
+    color: var(--clr-violet);
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 1.75rem 10rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-register:hover {
+    color: white;
+    background-color: var(--clr-magenta);
+}
+
+footer {
+    margin-top: 6rem;
+}
+
+footer i {
+    font-size: 3rem;
+    padding: 1rem
+}
+
+footer i:hover {
+    color: var(--clr-magenta);
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-size: cover;
+    }
+
+    .container {
+    }
+
+    .container #mockup {
+        width: 700px;
+        height: 495px;
+    }
+
+    footer {
+        justify-content: flex-end;
+        margin-top: 1rem;
+    }
+}
