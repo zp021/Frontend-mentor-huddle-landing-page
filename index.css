@@ -75,6 +75,7 @@ a {
 
 .btn-register:hover {
     color: white;
+    cursor: pointer;
     background-color: var(--clr-magenta);
 }
 
@@ -86,7 +87,9 @@ footer {
 
 footer i {
     font-size: 3rem;
-    padding: 1rem
+    color: white;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
 }
 
 footer i:hover {
@@ -103,13 +106,13 @@ footer i:hover {
     .hero {
         display: flex;
         flex-direction: column;
-        margin-right: 3rem;
+        margin-right: 3.5rem;
     }
 
     .text {
         text-align: left;
         margin-top: 1rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     .container {
@@ -118,19 +121,19 @@ footer i:hover {
     }
 
     .container #logo {
-        width: 12.813rem;
+        width: 13rem;
         margin-top: 2rem;
-        margin-bottom: 6rem;
+        margin-bottom: 5.25rem;
     }
 
     .container #mockup {
         width: 43.75rem;
-        height: 30.938rem;
+        height: 31.25rem;
         margin-bottom: 5rem;
     }
 
     .container h1 {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
         margin-bottom: 1.25rem;
     }
 
