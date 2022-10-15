@@ -14,11 +14,11 @@
 body {
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
-    background-size: 46.875rem;
+    background-size: 23.438rem;
     background-color: var(--clr-violet);
     color: white;
     height: calc(100vh - 1px);
-    margin: 0 5rem;
+    margin: 0 2.5rem;
 
     display: flex;
     flex-direction: column;
@@ -37,38 +37,39 @@ a {
 }
 
 .container #logo {
-    width: 15.625rem;
+    width: 7.5rem;
     float: left;
-    margin-bottom: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 .container #mockup {
-    width: 37.5rem;
-    height: 26.75rem;
-    margin-bottom: 7rem;
+    width: 18.625rem;
+    height: 13.25rem;
+    margin-bottom: 3.75rem;
 }
 
 .container h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .container p {
     font-family: "Open sans", sans-serif;
-    font-size: 1.95rem;
+    font-size: 0.938rem;
     line-height: 1.6;
     word-spacing: 3px;
-    margin-bottom: 3rem;
+    margin-bottom: 1.563rem;
 }
 
 .btn-register {
     background-color: white;
     color: var(--clr-violet);
-    font-size: 1.5rem;
+    font-size: 12px;
     border: none;
     border-radius: 3rem;
-    padding: 1.75rem 10rem;
+    padding: 0.75rem 4.85rem;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition: 0.3s ease-in-out;
 }
@@ -82,11 +83,12 @@ a {
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 2.75rem;
+    
 }
 
 footer i {
-    font-size: 3rem;
+    font-size: 1.875rem;
     color: white;
     padding: 1rem;
     transition: 0.3s ease-in-out;
