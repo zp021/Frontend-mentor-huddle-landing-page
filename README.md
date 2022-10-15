@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-solution-HINQeNewYO)
 - [Live site URL](https://zp021-frontend-mentor-huddle-landing.netlify.app/)
 
 ## My process
